@@ -14,6 +14,12 @@ ln -s dotfiles/dot-tmux.conf ~/.tmux.conf
 apt install -y lld clang cmake build-essential
 ```
 
+Create a user and give them sudo privileges
+```
+adduser sanketh
+usermod -aG sudo sanketh
+```
+
 oh-my-zsh theme: `norm` (to distinguish SSH session from my desktop.)
 
 `:PluginInstal` on `vim` to install plugins.

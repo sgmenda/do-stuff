@@ -11,7 +11,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git clone https://github.com/sgmenda/dotfiles
 ln -s dotfiles/dot-vimrc ~/.vimrc
 ln -s dotfiles/dot-tmux.conf ~/.tmux.conf
-apt install -y lld clang cmake build-essential
+apt install -y lld clang cmake build-essential python3 python3-dev
 ```
 
 Create a user and give them sudo privileges
@@ -22,7 +22,7 @@ usermod -aG sudo sanketh
 
 oh-my-zsh theme: `norm` (to distinguish SSH session from my desktop.)
 
-`:PluginInstal` on `vim` to install plugins.
+`:PluginInstall` on `vim` to install plugins.
 
 ### Setting up VNC
 

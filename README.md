@@ -27,7 +27,7 @@ Follow
 
 To start server
 ```
-vncserver -geometry 1280x1024
+vncserver -geometry 1600x1200
 ```
 To kill vncserver
 ```
@@ -51,7 +51,7 @@ To open VNC
 open vnc://localhost:5901
 ```
 
-## wtf I am doing this?
+## Why I am doing this?
 
 I wanna work on firefox, but I don't have a powerful laptop. This allows me to
 use DO to work on firefox.
